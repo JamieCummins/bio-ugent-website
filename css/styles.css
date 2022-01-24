@@ -1409,9 +1409,7 @@ progress {
   }
 
   .col-img-5 {
-    flex: 0 0 auto;
-    width: 50%;
-    text-align: center;
+    width: 30%;
   }
 
   .col-lg-6 {
@@ -1421,8 +1419,8 @@ progress {
   }
 
   .col-img-6 {
-    flex: 0 0 auto;
-    width: 50%;
+    max-width: 100%;
+    height: auto;
     text-align: right;
   }
 
@@ -1453,14 +1451,13 @@ progress {
 
   .col-lg-10 {
     flex: 0 0 auto;
-    width: 50%;
+    width: 40%;
     text-align: justify;
   }
 
   .col-img-10 {
-    flex: 0 0 auto auto;
-    width: 20%;
-    padding-left: 5rem;
+    width: 50%;
+    padding-left: 5%;
   }
 
   .col-lg-11 {
@@ -7465,7 +7462,7 @@ textarea.form-control-lg {
 }
 
 .ms-auto-manual {
-  margin-left: 5rem !important;
+  margin-left: 2% !important;
 }
 
 .p-0 {
@@ -7669,11 +7666,11 @@ textarea.form-control-lg {
 }
 
 .fs-5 {
-  font-size: 1.25rem !important;
+  font-size: calc(1.275rem + 0.3vw) !important;
 }
 
 .fs-5_5 {
-  font-size: 1.1rem !important;
+  font-size: calc(.75rem + 0.3vw) !important;
 }
 
 .fs-6 {
@@ -11517,7 +11514,7 @@ html {
   font-size: 1.25rem;
 }
 .masthead .masthead-topimage {
-  width: 30rem;
+  width: 40%;
 }
 
 @media (min-width: 992px) {
@@ -11588,6 +11585,7 @@ tr.padding-above-table-row>td {
 }
 
 .small-image-with-text {
-  height: inherit;
-  width: 40%;
+  max-width: 100%;
+  height: auto;
+  padding-right: 25%;
 }
