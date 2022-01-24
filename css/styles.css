@@ -604,6 +604,16 @@ progress {
   height: auto;
 }
 
+.impact-center {
+  padding: 0 0 0 auto;
+  width: 40%;
+}
+
+
+.centered-main-text {
+  text-align: justify;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
