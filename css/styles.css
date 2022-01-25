@@ -7687,6 +7687,18 @@ textarea.form-control-lg {
   font-size: 1rem !important;
 }
 
+.table-row-1 {
+  height: auto;
+  width: auto;
+}
+
+.table-cell-1 {
+  height: 1%;
+  width: 30%;
+  text-align: justify;
+  vertical-align: top;
+}
+
 
 
 .fst-italic {
