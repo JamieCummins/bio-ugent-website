@@ -7693,8 +7693,14 @@ textarea.form-control-lg {
 }
 
 .table-cell-1 {
-  height: 1%;
   width: 30%;
+  text-align: center;
+  vertical-align: top;
+}
+
+.table-cell-2 {
+  width: 35%;
+  height: auto;
   text-align: justify;
   vertical-align: top;
 }
