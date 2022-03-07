@@ -604,6 +604,22 @@ progress {
   height: auto;
 }
 
+.img-fluid-2 {
+  max-width: 60%;
+  height: auto;
+}
+
+.img-fluid-3 {
+  max-width: 25%;
+  height: auto;
+}
+
+.img-fluid-4 {
+  max-width: 100%;
+  height: 15rem;
+  width: auto;
+}
+
 .impact-center {
   padding: 0 0 0 auto;
   width: 40%;
@@ -1411,11 +1427,17 @@ progress {
     padding-left: 3rem;
   }
 
-
   .col-lg-5 {
     flex: 0 0 auto;
     width: 41.66666667%;
     text-align: justify;
+  }
+
+  .col-lg-5_pad {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+    text-align: justify;
+    padding-left: 5rem;
   }
 
   .col-img-5 {
@@ -11562,7 +11584,7 @@ html {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  width: inherit;
   border-radius: 0.5rem;
   overflow: hidden;
 }
@@ -11572,7 +11594,7 @@ html {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
@@ -11582,7 +11604,7 @@ html {
 }
 
 .portfolio-modal .btn-close {
-  color: #1abc9c;
+  color: black;
   font-size: 2rem;
   padding: 1rem;
 }
@@ -11605,7 +11627,7 @@ tr.padding-above-table-row>td {
   padding-top: 5rem;
   padding-bottom: 5rem;
   background-color: #2c3e50;
-  color: #fff;
+  color: white;
 }
 
 .copyright {
